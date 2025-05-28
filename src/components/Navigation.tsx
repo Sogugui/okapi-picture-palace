@@ -1,6 +1,6 @@
 
 import { Link, useLocation } from "react-router-dom";
-import { Image, Upload, Home, Utensils, Heart } from "lucide-react";
+import { Image, Upload, Home, Utensils, Heart, MapPin, Microscope, Activity, TreePine } from "lucide-react";
 
 const Navigation = () => {
   const location = useLocation();
@@ -9,16 +9,16 @@ const Navigation = () => {
   
   return (
     <nav className="bg-amber-900 text-white shadow-lg">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="text-xl font-bold flex items-center space-x-2">
             <span>🦌 Okapi World</span>
           </Link>
           
-          <div className="flex space-x-6">
+          <div className="flex space-x-4">
             <Link 
               to="/" 
-              className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-colors ${
+              className={`flex items-center space-x-1 px-2 py-2 rounded-md transition-colors text-sm ${
                 isActive('/') ? 'bg-amber-800' : 'hover:bg-amber-800'
               }`}
             >
@@ -28,7 +28,7 @@ const Navigation = () => {
             
             <Link 
               to="/gallery" 
-              className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-colors ${
+              className={`flex items-center space-x-1 px-2 py-2 rounded-md transition-colors text-sm ${
                 isActive('/gallery') ? 'bg-amber-800' : 'hover:bg-amber-800'
               }`}
             >
@@ -37,8 +37,18 @@ const Navigation = () => {
             </Link>
             
             <Link 
+              to="/habitat" 
+              className={`flex items-center space-x-1 px-2 py-2 rounded-md transition-colors text-sm ${
+                isActive('/habitat') ? 'bg-amber-800' : 'hover:bg-amber-800'
+              }`}
+            >
+              <TreePine className="w-4 h-4" />
+              <span>Habitat</span>
+            </Link>
+            
+            <Link 
               to="/diet" 
-              className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-colors ${
+              className={`flex items-center space-x-1 px-2 py-2 rounded-md transition-colors text-sm ${
                 isActive('/diet') ? 'bg-amber-800' : 'hover:bg-amber-800'
               }`}
             >
@@ -47,8 +57,18 @@ const Navigation = () => {
             </Link>
             
             <Link 
+              to="/behavior" 
+              className={`flex items-center space-x-1 px-2 py-2 rounded-md transition-colors text-sm ${
+                isActive('/behavior') ? 'bg-amber-800' : 'hover:bg-amber-800'
+              }`}
+            >
+              <Activity className="w-4 h-4" />
+              <span>Behavior</span>
+            </Link>
+            
+            <Link 
               to="/reproduction" 
-              className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-colors ${
+              className={`flex items-center space-x-1 px-2 py-2 rounded-md transition-colors text-sm ${
                 isActive('/reproduction') ? 'bg-amber-800' : 'hover:bg-amber-800'
               }`}
             >
@@ -57,13 +77,33 @@ const Navigation = () => {
             </Link>
             
             <Link 
+              to="/anatomy" 
+              className={`flex items-center space-x-1 px-2 py-2 rounded-md transition-colors text-sm ${
+                isActive('/anatomy') ? 'bg-amber-800' : 'hover:bg-amber-800'
+              }`}
+            >
+              <Microscope className="w-4 h-4" />
+              <span>Anatomy</span>
+            </Link>
+            
+            <Link 
+              to="/classification" 
+              className={`flex items-center space-x-1 px-2 py-2 rounded-md transition-colors text-sm ${
+                isActive('/classification') ? 'bg-amber-800' : 'hover:bg-amber-800'
+              }`}
+            >
+              <MapPin className="w-4 h-4" />
+              <span>Classification</span>
+            </Link>
+            
+            <Link 
               to="/upload" 
-              className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-colors ${
+              className={`flex items-center space-x-1 px-2 py-2 rounded-md transition-colors text-sm ${
                 isActive('/upload') ? 'bg-amber-800' : 'hover:bg-amber-800'
               }`}
             >
               <Upload className="w-4 h-4" />
-              <span>Share Photos</span>
+              <span>Share</span>
             </Link>
           </div>
         </div>

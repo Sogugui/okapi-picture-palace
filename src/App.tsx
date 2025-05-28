@@ -10,6 +10,10 @@ import PhotoDetail from "./pages/PhotoDetail";
 import Upload from "./pages/Upload";
 import Diet from "./pages/Diet";
 import Reproduction from "./pages/Reproduction";
+import Habitat from "./pages/Habitat";
+import Classification from "./pages/Classification";
+import Anatomy from "./pages/Anatomy";
+import Behavior from "./pages/Behavior";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +30,10 @@ const App = () => (
           <Route path="/photo/:id" element={<PhotoDetail />} />
           <Route path="/diet" element={<Diet />} />
           <Route path="/reproduction" element={<Reproduction />} />
+          <Route path="/habitat" element={<Habitat />} />
+          <Route path="/classification" element={<Classification />} />
+          <Route path="/anatomy" element={<Anatomy />} />
+          <Route path="/behavior" element={<Behavior />} />
           <Route path="/upload" element={<Upload />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
