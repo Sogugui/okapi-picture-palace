@@ -121,7 +121,6 @@ const Anatomy = () => {
               <CardHeader>
                 <CardTitle className="text-amber-900">Ossicones (Males Only)</CardTitle>
               </CardHeader>
-              </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-3">
                   Male Okapis have two short, skin-covered horns called ossicones, similar to their giraffe relatives.
