@@ -1,6 +1,6 @@
 
 import { Link, useLocation } from "react-router-dom";
-import { Image, Upload, Home } from "lucide-react";
+import { Image, Upload, Home, Utensils, Heart } from "lucide-react";
 
 const Navigation = () => {
   const location = useLocation();
@@ -34,6 +34,26 @@ const Navigation = () => {
             >
               <Image className="w-4 h-4" />
               <span>Gallery</span>
+            </Link>
+            
+            <Link 
+              to="/diet" 
+              className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-colors ${
+                isActive('/diet') ? 'bg-amber-800' : 'hover:bg-amber-800'
+              }`}
+            >
+              <Utensils className="w-4 h-4" />
+              <span>Diet</span>
+            </Link>
+            
+            <Link 
+              to="/reproduction" 
+              className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-colors ${
+                isActive('/reproduction') ? 'bg-amber-800' : 'hover:bg-amber-800'
+              }`}
+            >
+              <Heart className="w-4 h-4" />
+              <span>Reproduction</span>
             </Link>
             
             <Link 

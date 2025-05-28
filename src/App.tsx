@@ -8,6 +8,8 @@ import Index from "./pages/Index";
 import Gallery from "./pages/Gallery";
 import PhotoDetail from "./pages/PhotoDetail";
 import Upload from "./pages/Upload";
+import Diet from "./pages/Diet";
+import Reproduction from "./pages/Reproduction";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +24,8 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/photo/:id" element={<PhotoDetail />} />
+          <Route path="/diet" element={<Diet />} />
+          <Route path="/reproduction" element={<Reproduction />} />
           <Route path="/upload" element={<Upload />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
