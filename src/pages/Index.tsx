@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import { Image, Upload } from "lucide-react";
@@ -10,7 +9,7 @@ const Index = () => {
       
       {/* Hero Section */}
       <div className="relative h-96 bg-cover bg-center" 
-           style={{backgroundImage: "url('https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3')"}}>
+           style={{backgroundImage: "url('https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3')"}}>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white">
@@ -55,7 +54,7 @@ const Index = () => {
           {/* Right Content */}
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1466721591366-2d5fba72006d?ixlib=rb-4.0.3" 
+              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3" 
               alt="Beautiful Okapi in natural habitat"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />

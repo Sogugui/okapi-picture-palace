@@ -8,7 +8,7 @@ const PhotoDetail = () => {
   
   const photos = {
     "1": {
-      src: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3",
+      src: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3",
       title: "Okapi Family in Forest",
       caption: "A peaceful moment captured in the dense Congo rainforest",
       description: "This stunning photograph captures a rare glimpse of Okapis in their natural habitat. The dense foliage of the Congo rainforest provides the perfect backdrop for these elusive creatures. Okapis are incredibly shy and rarely seen in the wild, making photographs like this one particularly precious. The family shown here demonstrates the strong social bonds that exist between Okapi mothers and their young. Notice how the distinctive white stripes on their legs help them blend with the dappled sunlight filtering through the forest canopy.",
@@ -21,7 +21,7 @@ const PhotoDetail = () => {
       ]
     },
     "2": {
-      src: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d?ixlib=rb-4.0.3",
+      src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3",
       title: "Grazing Okapi",
       caption: "An adult Okapi grazing in its natural habitat",
       description: "This image beautifully showcases an adult Okapi engaged in one of its most common activities - foraging for food. Okapis are browsers, feeding on leaves, buds, and fruits found in the forest understory. Their long, prehensile tongues (which can extend up to 18 inches) allow them to reach vegetation that other animals cannot access. The photograph highlights the animal's distinctive reddish-brown coat and the characteristic white horizontal stripes on their legs and rear end, which serve as excellent camouflage in the forest environment.",
@@ -34,7 +34,7 @@ const PhotoDetail = () => {
       ]
     },
     "3": {
-      src: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-4.0.3",
+      src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3",
       title: "Young Okapi Calf",
       caption: "A young Okapi exploring the forest floor",
       description: "Young Okapi calves are particularly vulnerable during their first few months of life. This photograph captures the curiosity and innocence of a juvenile Okapi as it explores its forest home. Calves are born with more pronounced striping than adults, which gradually fades as they mature. The mother typically hides her calf in dense vegetation during the day, returning only to nurse. This behavior helps protect the young from predators such as leopards. The bond between mother and calf is incredibly strong, lasting for several years.",
@@ -47,7 +47,7 @@ const PhotoDetail = () => {
       ]
     },
     "4": {
-      src: "https://images.unsplash.com/photo-1485833077593-4278bba3f11f?ixlib=rb-4.0.3",
+      src: "https://images.unsplash.com/photo-1584464491064-5f56caf9bb4f?ixlib=rb-4.0.3",
       title: "Okapi Portrait",
       caption: "Close-up view showing the distinctive markings",
       description: "This intimate portrait provides an excellent view of the Okapi's distinctive features. The velvety brown coat, large ears, and gentle eyes are clearly visible in this close-up shot. Male Okapis have short, hair-covered horns called ossicones, similar to their giraffe relatives. The Okapi's large ears help them detect the slightest sounds in their forest environment, which is crucial for avoiding predators. Their excellent hearing, combined with their natural camouflage, has helped them survive in the dense forests of Central Africa for millions of years.",

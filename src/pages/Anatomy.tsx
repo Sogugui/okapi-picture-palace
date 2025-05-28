@@ -19,7 +19,7 @@ const Anatomy = () => {
         {/* Hero Image */}
         <div className="mb-12">
           <img 
-            src="https://images.unsplash.com/photo-1485833077593-4278bba3f11f?ixlib=rb-4.0.3" 
+            src="https://images.unsplash.com/photo-1584464491064-5f56caf9bb4f?ixlib=rb-4.0.3" 
             alt="Okapi showing distinctive features"
             className="w-full h-96 object-cover rounded-lg shadow-lg"
           />

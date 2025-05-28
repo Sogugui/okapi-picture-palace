@@ -7,25 +7,25 @@ const Gallery = () => {
   const photos = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3",
+      src: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3",
       title: "Okapi Family in Forest",
       description: "A peaceful moment captured in the dense Congo rainforest"
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d?ixlib=rb-4.0.3",
+      src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3",
       title: "Grazing Okapi",
       description: "An adult Okapi grazing in its natural habitat"
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-4.0.3",
+      src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3",
       title: "Young Okapi Calf",
       description: "A young Okapi exploring the forest floor"
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1485833077593-4278bba3f11f?ixlib=rb-4.0.3",
+      src: "https://images.unsplash.com/photo-1584464491064-5f56caf9bb4f?ixlib=rb-4.0.3",
       title: "Okapi Portrait",
       description: "Close-up view showing the distinctive markings"
     }
